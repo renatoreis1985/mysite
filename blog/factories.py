@@ -1,8 +1,8 @@
-import factory # type: ignore
-from faker import Factory as FakerFactory # type: ignore
+import factory
+from faker import Factory as FakerFactory
 
-from django.contrib.auth.models import User # type: ignore
-from django.utils.timezone import now # type: ignore
+from django.contrib.auth.models import User
+from django.utils.timezone import now
 
 from blog.models import Post
 

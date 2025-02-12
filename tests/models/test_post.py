@@ -1,6 +1,6 @@
-import pytest # type: ignore
+import pytest
 
-from blog.factories import PostFactory # type: ignore
+from blog.factories import PostFactory
 
 @pytest.fixture
 def post_published():

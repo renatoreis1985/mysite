@@ -1,5 +1,5 @@
-from django.db import models # type: ignore
-from django.contrib.auth.models import User # type: ignore
+from django.db import models
+from django.contrib.auth.models import User
 
 STATUS = (
     (0, 'Draft'),
@@ -18,6 +18,6 @@ class Post(models.Model):
 
     class Meta:
         ordering = ['-created_on']
-
+       
     def __str__(self):
         return self.title
